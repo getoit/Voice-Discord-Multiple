@@ -1,4 +1,3 @@
-![Project Logo](https://example.com/logo.png)  <!-- Replace with actual logo URL -->
 # Project Title 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  <!-- Badge for license -->
 
