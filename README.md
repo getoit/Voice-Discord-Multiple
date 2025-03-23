@@ -27,7 +27,6 @@ Once the bot is running, you can use the following commands:
 Here is the configuration object from `config.js` that you can customize:
 
 ```javascript
-// Configuration object containing various settings for the application
 const config = {
   prefix: "-",                                  // Prefix for commands
   AutoWakeupJockie: false,                      // Enable auto wakeup functionality
@@ -48,8 +47,6 @@ const config = {
     spamInterval: 50000                         // Interval for sending spam messages (in milliseconds)
   }
 };
-
-// Export the configuration object
 module.exports = config;
 ```
 
