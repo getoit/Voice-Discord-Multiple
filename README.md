@@ -1,4 +1,4 @@
-# Voice Discord Multiple 
+# Project Title 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  <!-- Badge for license -->
 
 ## Description
@@ -22,9 +22,36 @@ To use the project, execute the following command:
 node index.js
 ```
 Once the bot is running, you can use the following commands:
-- **Say Command**: Use the `say` command followed by your message to have the bot repeat your message.
-- **Auto Send Message**: Configure the bot to send messages automatically by setting the appropriate parameters in the configuration files.
-- **Auto Wakeup**: Set up triggers in the configuration to wake the bot based on specific voice commands.
+
+### Configuration
+Here is the configuration object from `config.js` that you can customize:
+
+```javascript
+// Configuration object containing various settings for the application
+const config = {
+  prefix: "-",                                  // Prefix for commands
+  AutoWakeupJockie: false,                      // Enable auto wakeup functionality
+  allowedUsers: [
+    "ownerID_1",                                // Replace with your Discord user ID 
+    "ownerID_99"                                // You can add more user IDs here
+  ],
+  VC: {
+    channelId: "channelId",                     // Replace with your voice channel ID
+    selfMute: false,                            // Mute the bot in the voice channel
+    selfDeaf: false,                            // Deaf the bot in the voice channel
+    stream: false                               // Stream audio from the voice channel
+  },
+  levelingRole: {
+    levelingspamSet: false,                     // Enable leveling spam
+    spamchannelId: "1347790044567437373",       // Replace with your spam channel ID
+    spamContent: "_ _",                         // Content to be sent in the spam channel 
+    spamInterval: 50000                         // Interval for sending spam messages (in milliseconds)
+  }
+};
+
+// Export the configuration object
+module.exports = config;
+```
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
