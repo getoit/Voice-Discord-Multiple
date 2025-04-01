@@ -109,9 +109,9 @@ const wait = seconds => new Promise(resolve => setTimeout(resolve, 1000 * second
 
 (async () => {
     const modInfo = {
-        name: "ONLINE VC",
-        version: "1.0.3",
-        update: "09:23 8/8/2024",
+        name: "Voice Discord Multiple",
+        version: "1.0.0",
+        update: "2/3/2025",
         limitToken: 5
     };
 
