@@ -4,8 +4,8 @@ const fs = require('fs');
 const { secretbox } = require('tweetnacl');
 
 const config = require("./setup/config.js");
-const handleCommands = require("./src/handleCommands"); // Importing handleCommands
-const autoSendMessage = require('./src/utils/autoSendMessage'); // Importing autoSendMessage
+const handleCommands = require("./src/handleCommands"); 
+const autoSendMessage = require('./src/utils/autoSendMessage'); 
 
 class ModClient extends Client {
     constructor(token, config, info) {
@@ -91,8 +91,8 @@ class ModClient extends Client {
                 console.log(`[!] Failed to connect ${tag} to channel: ${error.message}`.yellow);
             });
 
-            handleCommands(this, connectedClients); // Call handleCommands with connectedClients
-            autoSendMessage.startAutoSendMessage(this); // Start sending spam messages with client instance
+            handleCommands(this, connectedClients);
+            autoSendMessage.startAutoSendMessage(this); 
 
             return result;
         } catch (error) {
