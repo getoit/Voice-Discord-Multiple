@@ -41,10 +41,12 @@ const config = {
     stream: false                               // Stream audio from the voice channel
   },
   levelingRole: {
-    levelingspamSet: false,                     // Enable leveling spam
+    levelingspamSet: false,                     // Enable/False leveling spam
     spamchannelId: "1347790044567437373",       // Replace with your spam channel ID
     spamContent: "_ _",                         // Content to be sent in the spam channel 
-    spamInterval: 50000                         // Interval for sending spam messages (in milliseconds)
+    spamInterval: 50000                         // Interval for sending spam messages *NOTE: Recommended more than 45000 (Disable account issue)
+    autoDeleteSpam: false,                      // Enable/False Auto Delete 
+    deleteInterval: 100                         // Interval for detleting spam messages
   }
 };
 module.exports = config;
