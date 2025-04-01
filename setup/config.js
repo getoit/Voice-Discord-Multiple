@@ -1,22 +1,22 @@
 const config = {
-  prefix: "-",
+  prefix: "+",
   AutoWakeupJockie: false,
   allowedUsers: [
-    "ownerID_1",
-    "ownerID_99"
+    "AllowedUsers1",
+    "AllowedUsers99"
   ],
   VC: {
-    channelId: "VoiceChannelID",
+    channelId: "ChannelID",
     selfMute: false,
     selfDeaf: false,
     stream: false
   },
   levelingRole: {
     levelingspamSet: false,
-    spamchannelId: "SpamChannelID",
+    spamchannelId: "ChannelID",
     spamContent: "_ _",
-    spamInterval: 50000,
-    autoDeleteSpam: true,
+    spamInterval: 40000,
+    autoDeleteSpam: false,
     deleteInterval: 100
   }
 };
