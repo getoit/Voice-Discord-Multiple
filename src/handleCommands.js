@@ -9,6 +9,7 @@ function handleCommands(client, clients) {
         const isAllowed = jockieIds && jockieIds.includes(message.author.id);
 
     autoWakeup(client, message); 
+
         if (message.content.startsWith(`${prefix}say `)) {
             const args = message.content.split(' ').slice(1);
             say.execute(client, message, args); 
