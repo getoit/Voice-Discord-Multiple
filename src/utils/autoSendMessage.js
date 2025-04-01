@@ -1,4 +1,4 @@
-const config = require('../../setup/config.json');
+const config = require('../../setup/config.js');
 
 let intervalId;
 
