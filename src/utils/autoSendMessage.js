@@ -9,11 +9,10 @@ function startAutoSendMessage(client) {
 
             if (channel) {
                 channel.send(config.levelingRole.spamContent).then(message => {
-                    // Delete the message based on autoDeleteSpam configuration
                     if (config.levelingRole.autoDeleteSpam) {
                         setTimeout(() => {
                             message.delete().catch(console.error);
-                        }, config.levelingRole.deleteInterval); // Use deleteInterval from config
+                        }, config.levelingRole.deleteInterval);
                     }
                 });
             }
