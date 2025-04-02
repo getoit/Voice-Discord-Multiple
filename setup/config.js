@@ -15,7 +15,7 @@ const config = {
     levelingspamSet: false,
     spamchannelId: "ChannelID",
     spamContent: "_ _",
-    spamInterval: 40000,
+    spamInterval: 45000,
     autoDeleteSpam: false,
     deleteInterval: 100
   }
