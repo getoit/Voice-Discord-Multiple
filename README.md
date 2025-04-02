@@ -21,7 +21,6 @@ To use the project, execute:
 ```
 node index.js
 ```
-Once the bot is running, you can use the following commands:
 
 ### Configuration
 Here is the configuration object from `setup/config.js` that you can customize:
