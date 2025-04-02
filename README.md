@@ -2,22 +2,22 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  <!-- Badge for license -->
 
 ## Description
-This project is designed to provide a voice command interface for Discord, allowing users to interact with the Discord server through various commands. The key features of this project include:
+This project provides a voice command interface for Discord, allowing users to interact with the Discord server through various commands. Key features include:
 
-- **Voice Commands**: Users can send voice commands to perform actions within the Discord server.
-- **Auto Send Messages**: The bot can automatically send predefined messages at specified intervals.
-- **Auto Wakeup**: The bot can wake up and respond to specific triggers or commands.
+- **Voice Commands**: Send voice commands to perform actions within the Discord server.
+- **Auto Send Messages**: Automatically send predefined messages at specified intervals.
+- **Auto Wakeup**: Wake up and respond to specific triggers or commands.
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)  <!-- Badge for version -->
 
 ## Installation
-To install the project, run the following command:
+To install the project, run:
 ```
 npm install
 ```
 
 ## Usage
-To use the project, execute the following command:
+To use the project, execute:
 ```
 node index.js
 ```
@@ -28,25 +28,25 @@ Here is the configuration object from `setup/config.js` that you can customize:
 
 ```javascript
 const config = {
-  prefix: "-",                                  // Prefix for commands
+  prefix: "-",                                  // Command prefix
   AutoWakeupJockie: false,                      // Enable auto wakeup functionality
   allowedUsers: [
-    "ownerID_1",                                // Replace with your Discord user ID 
-    "ownerID_99"                                // You can add more user IDs here
+    "ownerID_1",                                // Your Discord user ID 
+    "ownerID_99"                                // Additional user IDs
   ],
   VC: {
-    channelId: "channelId",                     // Replace with your voice channel ID
+    channelId: "channelId",                     // Voice channel ID
     selfMute: false,                            // Mute the bot in the voice channel
     selfDeaf: false,                            // Deaf the bot in the voice channel
     stream: false                               // Stream audio from the voice channel
   },
   levelingRole: {
-    levelingspamSet: false,                     // Enable/False leveling spam
-    spamchannelId: "1347790044567437373",       // Replace with your spam channel ID
-    spamContent: "_ _",                         // Content to be sent in the spam channel 
-    spamInterval: 50000                         // Interval for sending spam messages
-    autoDeleteSpam: false,                      // Enable/False Auto Delete 
-    deleteInterval: 100                         // Interval for detleting spam messages
+    levelingspamSet: false,                     // Enable leveling spam
+    spamchannelId: "channelId",                 // Spam channel ID
+    spamContent: "_ _",                         // Content for spam messages 
+    spamInterval: 50000,                        // Interval for sending spam messages
+    autoDeleteSpam: false,                      // Enable auto delete 
+    deleteInterval: 100                         // Interval for deleting spam messages
   }
 };
 module.exports = config;
@@ -54,3 +54,5 @@ module.exports = config;
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+**Disabled your account at your own risk. I am just sharing this project.**
