@@ -28,25 +28,25 @@ Here is the configuration object from `setup/config.js` that you can customize:
 
 ```javascript
 const config = {
-  prefix: "-",                                  // Command prefix
-  AutoWakeupJockie: false,                      // Enable or disable auto wakeup functionality
+  prefix: "-",                           // Command prefix
+  AutoWakeupJockie: false,               // Enable or disable auto wakeup functionality
   allowedUsers: [
-    "ownerID_1",                                // Your Discord user ID 
-    "ownerID_99"                                // Additional user IDs
+    "ownerID_1",                         // Your Discord user ID 
+    "ownerID_99"                         // Additional user IDs
   ],
   VC: {
-    channelId: "channelId",                     // ID of the voice channel
-    selfMute: false,                            // Mute the bot in the voice channel
-    selfDeaf: false,                            // Deaf the bot in the voice channel
-    stream: false                               // Stream audio from the voice channel
+    channelId: "channelId",              // ID of the voice channel
+    selfMute: false,                     // Mute the bot in the voice channel
+    selfDeaf: false,                     // Deaf the bot in the voice channel
+    stream: false                        // Stream audio from the voice channel
   },
   levelingRole: {
-    levelingspamSet: false,                     // Enable or disable leveling spam
-    spamchannelId: "channelId",                 // ID of the spam channel
-    spamContent: "_ _",                         // Content for spam messages 
-    spamInterval: 50000,                        // Interval for sending spam messages (in milliseconds)
-    autoDeleteSpam: false,                      // Enable or disable auto deletion of spam messages
-    deleteInterval: 100                         // Interval for deleting spam messages (in milliseconds)
+    levelingspamSet: false,              // Enable or disable leveling spam
+    spamchannelId: "channelId",          // ID of the spam channel
+    spamContent: "_ _",                  // Content for spam messages 
+    spamInterval: 50000,                 // Interval for sending spam messages (in milliseconds)
+    autoDeleteSpam: false,               // Enable or disable auto deletion of spam messages
+    deleteInterval: 100                  // Interval for deleting spam messages (in milliseconds)
   }
 };
 module.exports = config;
