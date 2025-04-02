@@ -55,4 +55,5 @@ module.exports = config;
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+## Note
 **Please be aware that disabling your account is done at your own risk. This project is shared solely for educational purposes, and I do not take responsibility for any consequences that may arise from its use.**
