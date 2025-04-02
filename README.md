@@ -10,6 +10,12 @@ This project provides a voice command interface for Discord, allowing users to i
 
 ![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)  <!-- Badge for version -->
 
+## Cloning the Repository
+To clone this repository, run the following command:
+```
+git clone https://github.com/getoit/Voice-Discord-Multiple
+```
+
 ## Installation
 To install the project, run:
 ```
