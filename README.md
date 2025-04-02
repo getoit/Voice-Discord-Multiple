@@ -44,7 +44,7 @@ const config = {
     levelingspamSet: false,                     // Enable/False leveling spam
     spamchannelId: "1347790044567437373",       // Replace with your spam channel ID
     spamContent: "_ _",                         // Content to be sent in the spam channel 
-    spamInterval: 50000                         // Interval for sending spam messages *NOTE: Recommended more than 45000 (Disable account issue)
+    spamInterval: 50000                         // Interval for sending spam messages
     autoDeleteSpam: false,                      // Enable/False Auto Delete 
     deleteInterval: 100                         // Interval for detleting spam messages
   }
