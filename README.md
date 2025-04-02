@@ -8,7 +8,7 @@ This project provides a voice command interface for Discord, allowing users to i
 - **Auto Send Messages**: Automatically send predefined messages at specified intervals.
 - **Auto Wakeup**: Wake up and respond to specific triggers or commands.
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)  <!-- Badge for version -->
+![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)  <!-- Badge for version -->
 
 ## Installation
 To install the project, run:
